@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fof>
+	<common>
+		<container>
+			<option name="factoryClass">FOF30\Factory\MagicFactory</option>
+		</container>
+
+		<dispatcher>
+			<option name="defaultView">Articles</option>
+		</dispatcher>
+	</common>
+</fof>

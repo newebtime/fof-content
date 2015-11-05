@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+		version="3.2"
+		type="component"
+		method="upgrade">
+	<name>FOFContent</name>
+	<creationDate>2015-02-05</creationDate>
+	<author>Frédéric Vandebeuque</author>
+	<authorEmail>fred.vdb@newebtime.com</authorEmail>
+	<authorUrl>http://www.newebtime.com</authorUrl>
+	<copyright>Copyright (c) 2013-2015 Newebtime.com</copyright>
+	<license>GNU GPL v3 or later</license>
+	<version>0.0.1</version>
+	<description>FOFContent - Joomla! Content management.</description>
+
+	<!-- Administrator back-end section -->
+	<administration>
+		<!-- Administration menu -->
+		<menu >COM_FOFCONTENT</menu>
+
+		<!-- Back-end files -->
+		<files folder="backend">
+			<filename>fof.xml</filename>
+			<filename>fofcontent.php</filename>
+		</files>
+	</administration>
+</extension>
