@@ -13,6 +13,16 @@
 	<version>0.0.1</version>
 	<description>FOFContent - Joomla! Content management.</description>
 
+	<!-- SQL query files to execute on installation -->
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install/mysql/install.sql</file>
+			<file driver="mysql">sql/install/mysql/install.sql</file>
+			<file driver="mysqli" charset="utf8">sql/install/mysql/install.sql</file>
+			<file driver="mysqli">sql/install/mysql/install.sql</file>
+		</sql>
+	</install>
+
 	<!-- Administrator back-end section -->
 	<administration>
 		<!-- Administration menu -->
