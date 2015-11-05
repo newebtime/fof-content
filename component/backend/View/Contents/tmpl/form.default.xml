@@ -6,11 +6,15 @@
 		<header name="fofcontent_content_id" type="RowSelect" tdwidth="20" />
 		<header name="enabled" type="Field" />
 		<header name="title" type="Field" />
+		<header name="created_by" type="Field" />
+		<header name="created_on" type="Field" />
 	</headerset>
 
 	<fieldset name="items">
 		<field name="fofcontent_content_id" type="SelectRow"/>
 		<field name="enabled" type="Actions" show_archived="1" show_trash="1"/>
 		<field name="title" type="Text" />
+		<field name="created_by" type="User" show_id="0" show_email="0" show_username="0" show_avatar="0" show_link="true" />
+		<field name="created_on" type="Calendar" />
 	</fieldset>
 </form>
