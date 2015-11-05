@@ -35,5 +35,11 @@
 			<filename>fof.xml</filename>
 			<filename>fofcontent.php</filename>
 		</files>
+
+		<!-- Back-end translation files -->
+		<languages folder="language/backend">
+			<language tag="en-GB">en-GB/en-GB.com_fofcontent.ini</language>
+			<language tag="fr-FR">fr-FR/fr-FR.com_fofcontent.ini</language>
+		</languages>
 	</administration>
 </extension>
