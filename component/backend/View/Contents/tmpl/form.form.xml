@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<form>
-	<fieldset name="general">
+<form
+	tabbed="true"
+>
+	<fieldset name="general"
+			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_GENERAL"
+			  class="tab-pane active"
+	>
 		<field name="title" type="Text" />
+		<field name="fulltext" type="Editor" />
 		<field name="enabled" label="JSTATUS" type="Published" />
+		<field name="access" type="AccessLevel" />
+		<field name="language" type="Language" />
+	</fieldset>
+	<fieldset name="publishing"
+			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_PUBLISHING"
+			  class="tab-pane"
+			>
+		<field name="created_by" type="User" />
+		<field name="created_on" type="Calendar" />
+		<field name="modified_by" type="User" />
+		<field name="modified_on" type="Calendar" />
 	</fieldset>
 </form>
