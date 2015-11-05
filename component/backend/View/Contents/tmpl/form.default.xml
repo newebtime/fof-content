@@ -4,11 +4,13 @@
 >
 	<headerset>
 		<header name="fofcontent_content_id" type="RowSelect" tdwidth="20" />
+		<header name="enabled" type="Field" />
 		<header name="title" type="Field" />
 	</headerset>
 
 	<fieldset name="items">
 		<field name="fofcontent_content_id" type="SelectRow"/>
+		<field name="enabled" type="Actions" show_archived="1" show_trash="1"/>
 		<field name="title" type="Text" />
 	</fieldset>
 </form>

@@ -2,5 +2,6 @@
 <form>
 	<fieldset name="general">
 		<field name="title" type="Text" />
+		<field name="enabled" label="JSTATUS" type="Published" />
 	</fieldset>
 </form>
