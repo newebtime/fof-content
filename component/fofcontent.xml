@@ -30,6 +30,7 @@
 
 		<!-- Back-end files -->
 		<files folder="backend">
+			<folder>sql</folder>
 			<folder>View</folder>
 			<filename>fof.xml</filename>
 			<filename>fofcontent.php</filename>
