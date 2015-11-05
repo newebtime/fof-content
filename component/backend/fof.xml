@@ -6,7 +6,7 @@
 		</container>
 
 		<dispatcher>
-			<option name="defaultView">Articles</option>
+			<option name="defaultView">Contents</option>
 		</dispatcher>
 	</common>
 </fof>

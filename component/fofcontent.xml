@@ -20,6 +20,7 @@
 
 		<!-- Back-end files -->
 		<files folder="backend">
+			<folder>View</folder>
 			<filename>fof.xml</filename>
 			<filename>fofcontent.php</filename>
 		</files>

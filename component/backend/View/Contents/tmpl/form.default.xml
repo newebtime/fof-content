@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+	type="browse"
+>
+	<headerset>
+		<header name="fofcontent_content_id" type="Field" tdwidth="20" />
+		<header name="title" type="Field" />
+	</headerset>
+
+	<fieldset name="items">
+		<field name="fofcontent_content_id" type="Text"/>
+		<field name="title" type="Text" />
+	</fieldset>
+</form>
