@@ -4,11 +4,11 @@
 >
 	<headerset>
 		<header name="fofcontent_content_id" type="RowSelect" tdwidth="20" />
-		<header name="enabled" type="Field" />
-		<header name="title" type="Field" />
-		<header name="access" type="Field" />
+		<header name="enabled" type="Published" />
+		<header name="title" type="Searchable" />
+		<header name="access" type="AccessLevel" />
 		<header name="created_by" type="Field" />
-		<header name="language" type="Field" />
+		<header name="language" type="Language" />
 		<header name="created_on" type="Field" />
 	</headerset>
 
