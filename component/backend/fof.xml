@@ -8,5 +8,21 @@
 		<dispatcher>
 			<option name="defaultView">Contents</option>
 		</dispatcher>
+
+		<view name="Contents">
+			<config>
+				<option name="useConfigurationFile">1</option>
+			</config>
+
+			<toolbar task="browse">
+				<button type="title" translate="1" icon="stack">COM_FOFCONTENT_TITLE_CONTENTS</button>
+				<button type="new" />
+				<button type="editList" />
+				<button type="publishList" />
+				<button type="unpublishList" />
+				<button type="archiveList" />
+				<button type="trash" />
+			</toolbar>
+		</view>
 	</common>
 </fof>
