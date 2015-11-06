@@ -10,15 +10,21 @@
 		<header name="created_by" type="Field" />
 		<header name="language" type="Language" />
 		<header name="created_on" type="Field" />
+		<header name="hits" type="Field" />
+		<header name="fofcontent_content_id" id="id" type="Field" />
+		<header name="ordering" type="Ordering" tdwidth="30" />
 	</headerset>
 
 	<fieldset name="items">
 		<field name="fofcontent_content_id" type="SelectRow"/>
 		<field name="enabled" type="Actions" show_archived="1" show_trash="1"/>
-		<field name="title" type="Title" />
+		<field name="title" type="Title" url="index.php?option=com_fofcontent&amp;view=Content&amp;id=[ITEM:ID]" />
 		<field name="access" type="AccessLevel" />
 		<field name="created_by" type="User" show_id="0" show_email="0" show_username="0" show_avatar="0" show_link="true" />
 		<field name="language" type="Language" />
-		<field name="created_on" type="Calendar" />
+		<field name="created_on" type="Calendar" format="%d %h %Y" />
+		<field name="hits" type="Text" />
+		<field name="fofcontent_content_id" id="id" type="Text" />
+		<field name="ordering" type="Ordering" />
 	</fieldset>
 </form>
