@@ -54,4 +54,63 @@
 		<field name="metadata_rights" type="Text" />
 		<field name="metadata_xreference" type="Text" />
 	</fieldset>
+	<fieldset name="imageslinks"
+			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_IMAGESLINKS"
+			  class="tab-pane"
+			  innerclass="span6"
+	>
+		<field name="image_intro_img" type="Media" />
+		<field name="image_intro_float" type="GenericList">
+			<option>JGLOBAL_USE_GLOBAL</option>
+			<option value="right">COM_FOFCONTENT_RIGHT</option>
+			<option value="left">COM_FOFCONTENT_LEFT</option>
+			<option value="none">COM_FOFCONTENT_NONE</option>
+		</field>
+		<field name="image_intro_alt" type="Text" />
+		<field name="image_intro_caption" type="Text" />
+		<field name="spacer1" type="Spacer" label_placement="empty" />
+		<field name="image_fulltext_img" type="Media" />
+		<field name="image_fulltext_float" type="GenericList">
+			<option>JGLOBAL_USE_GLOBAL</option>
+			<option value="right">COM_FOFCONTENT_RIGHT</option>
+			<option value="left">COM_FOFCONTENT_LEFT</option>
+			<option value="none">COM_FOFCONTENT_NONE</option>
+		</field>
+		<field name="image_fulltext_alt" type="Text" />
+		<field name="image_fulltext_caption" type="Text" />
+	</fieldset>
+	<fieldset name="imageslinks_option"
+			  class="span6"
+			  innertab="imageslinks"
+	>
+		<field name="urla_url" type="Text" />
+		<field name="urla_text" type="Text" />
+		<field name="urla_target" type="GenericList">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JBROWSERTARGET_PARENT</option>
+			<option value="1">JBROWSERTARGET_NEW</option>
+			<option value="2">JBROWSERTARGET_POPUP</option>
+			<option value="3">JBROWSERTARGET_MODAL</option>
+		</field>
+		<field name="spacer1" type="Spacer" label_placement="empty" />
+		<field name="urlb_url" type="Text" />
+		<field name="urlb_text" type="Text" />
+		<field name="urlb_target" type="GenericList">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JBROWSERTARGET_PARENT</option>
+			<option value="1">JBROWSERTARGET_NEW</option>
+			<option value="2">JBROWSERTARGET_POPUP</option>
+			<option value="3">JBROWSERTARGET_MODAL</option>
+		</field>
+		<field name="spacer1" type="Spacer" label_placement="empty" />
+		<field name="urlc_url" type="Text" />
+		<field name="urlc_text" type="Text" />
+		<field name="urlc_target" type="GenericList">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JBROWSERTARGET_PARENT</option>
+			<option value="1">JBROWSERTARGET_NEW</option>
+			<option value="2">JBROWSERTARGET_POPUP</option>
+			<option value="3">JBROWSERTARGET_MODAL</option>
+		</field>
+	</fieldset>
 </form>
