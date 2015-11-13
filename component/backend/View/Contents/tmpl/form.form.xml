@@ -113,4 +113,123 @@
 			<option value="3">JBROWSERTARGET_MODAL</option>
 		</field>
 	</fieldset>
+	<fieldset name="attribs"
+			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_ATTRIBS"
+			  class="tab-pane"
+	>
+		<field name="attr_show_title" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+		<field name="attr_link_titles" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="attr_show_tags" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+		<field name="attr_show_intro" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="1">JSHOW</option>
+			<option value="0">JHIDE</option>
+		</field>
+		<field name="attr_info_block_position" type="GenericList">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">COM_FOFCONTENT_FIELD_OPTION_ABOVE</option>
+			<option value="1">COM_FOFCONTENT_FIELD_OPTION_BELOW</option>
+			<option value="2">COM_FOFCONTENT_FIELD_OPTION_SPLIT</option>
+		</field>
+		<field name="attr_show_category" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_link_category" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JNO</option>
+			<option	value="1">JYES</option>
+		</field>
+		<field name="attr_show_parent_category" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_link_parent_category" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JNO</option>
+			<option	value="1">JYES</option>
+		</field>
+		<field name="attr_show_author" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_link_author" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JNO</option>
+			<option	value="1">JYES</option>
+		</field>
+		<field name="attr_show_create_date" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_modify_date" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_publish_date" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_item_navigation" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_icons" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_print_icon" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_email_icon" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_vote" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_hits" type="GenericList" class="chzn-color">
+			<option	value="">JGLOBAL_USE_GLOBAL</option>
+			<option	value="0">JHIDE</option>
+			<option	value="1">JSHOW</option>
+		</field>
+		<field name="attr_show_noauth" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="attr_urls_position" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">COM_FOFCONTENT_FIELD_OPTION_ABOVE</option>
+			<option value="1">COM_FOFCONTENT_FIELD_OPTION_BELOW</option>
+		</field>
+		<field name="spacer2" type="Spacer" label_placement="empty" />
+		<field name="attr_alternative_readmore" type="Text" />
+		<field name="attr_article_layout" type="Componentlayout" useglobal="true"  extension="com_fofcontent" view="Contents" />
+	</fieldset>
 </form>
