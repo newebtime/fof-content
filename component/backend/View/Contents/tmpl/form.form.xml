@@ -4,21 +4,36 @@
 >
 	<fieldset name="general"
 			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_GENERAL"
-			  class="tab-pane active"
+			  class="tab-pane active row-fluid"
+			  innerclass="span9"
 	>
 		<field name="title" type="Text" />
 		<field name="fulltext" type="Editor" />
+	</fieldset>
+	<fieldset name="general_option"
+			  class="span3 form-vertical"
+			  innertab="general"
+	>
 		<field name="enabled" label="JSTATUS" type="Published" />
+		<field name="catid" type="Category" extension="com_fofcontent" />
+		<field name="featured" type="BooleanToggle" />
 		<field name="access" type="AccessLevel" />
 		<field name="language" type="Language" />
 	</fieldset>
 	<fieldset name="publishing"
 			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_PUBLISHING"
 			  class="tab-pane"
-			>
-		<field name="created_by" type="User" />
+			  innerclass="span6"
+	>
+		<field name="publish_up" type="Calendar" />
+		<field name="publish_down" type="Calendar" />
 		<field name="created_on" type="Calendar" />
-		<field name="modified_by" type="User" />
-		<field name="modified_on" type="Calendar" />
+		<field name="created_by" type="User" />
+		<field name="created_by_alias" type="Text" />
+		<field name="modified_on" type="Text" readonly="readonly" />
+		<field name="modified_by" type="Text" readonly="readonly" />
+		<field name="version" type="Text" readonly="readonly" />
+		<field name="hits" type="Text" readonly="readonly" />
+		<field name="fofcontent_content_id" type="Text" readonly="readonly" />
 	</fieldset>
 </form>
