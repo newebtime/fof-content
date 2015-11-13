@@ -36,4 +36,22 @@
 		<field name="hits" type="Text" readonly="readonly" />
 		<field name="fofcontent_content_id" type="Text" readonly="readonly" />
 	</fieldset>
+	<fieldset name="publishing_option"
+			  class="span6"
+			  innertab="publishing"
+	>
+		<field name="metadesc" type="TextArea" rows="4" />
+		<field name="metakey" type="TextArea" rows="4" />
+		<field name="xreference" type="Text" />
+		<field name="metadata_robots" type="GenericList">
+			<option>JGLOBAL_USE_GLOBAL</option>
+			<option value="index, follow">JGLOBAL_INDEX_FOLLOW</option>
+			<option value="noindex, follow">JGLOBAL_NOINDEX_FOLLOW</option>
+			<option value="index, nofollow">JGLOBAL_INDEX_NOFOLLOW</option>
+			<option value="noindex, nofollow">JGLOBAL_NOINDEX_NOFOLLOW</option>
+		</field>
+		<field name="metadata_author" type="Text" />
+		<field name="metadata_rights" type="Text" />
+		<field name="metadata_xreference" type="Text" />
+	</fieldset>
 </form>
