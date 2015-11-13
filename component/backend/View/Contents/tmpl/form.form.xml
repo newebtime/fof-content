@@ -257,4 +257,12 @@
 			<option value="1">JYES</option>
 		</field>
 	</fieldset>
+	<fieldset name="rules"
+			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_RULES"
+			  class="tab-pane"
+	>
+		<field name="rules" type="Rules"
+			   component="com_fofcontent" section="content"  label_placement="none"
+		/>
+	</fieldset>
 </form>
