@@ -232,4 +232,29 @@
 		<field name="attr_alternative_readmore" type="Text" />
 		<field name="attr_article_layout" type="Componentlayout" useglobal="true"  extension="com_fofcontent" view="Contents" />
 	</fieldset>
+	<fieldset name="editorConfig"
+			  label="COM_FOFCONTENT_ARTICLES_FIELDSET_EDITORCONFIG"
+			  class="tab-pane"
+	>
+		<field name="attr_show_publishing_options" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="attr_show_article_options" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="attr_show_urls_images_backend" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="attr_show_urls_images_frontend" type="GenericList" class="chzn-color">
+			<option value="">JGLOBAL_USE_GLOBAL</option>
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+	</fieldset>
 </form>
