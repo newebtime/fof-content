@@ -18,7 +18,8 @@
 	<fieldset name="items">
 		<field name="fofcontent_content_id" type="SelectRow"/>
 		<field name="enabled" type="Actions" show_archived="1" show_trash="1"/>
-		<field name="title" type="Title" url="index.php?option=com_fofcontent&amp;view=Content&amp;id=[ITEM:ID]" />
+		<field name="title" type="Title" slug_format="(Alias: %s)"
+			   url="index.php?option=com_fofcontent&amp;view=Content&amp;id=[ITEM:ID]" />
 		<field name="access" type="AccessLevel" />
 		<field name="created_by" type="User" show_id="0" show_email="0" show_username="0" show_avatar="0" show_link="true" />
 		<field name="language" type="Language" />
