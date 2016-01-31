@@ -23,6 +23,11 @@
 		</sql>
 	</install>
 
+	<!-- Public front end files -->
+	<files folder="frontend">
+		<folter>helpers</folter>
+	</files>
+
 	<!-- Administrator back-end section -->
 	<administration>
 		<!-- Administration menu -->
@@ -30,8 +35,13 @@
 
 		<!-- Back-end files -->
 		<files folder="backend">
+			<folter>Form</folter>
+			<folter>helpers</folter>
 			<folder>sql</folder>
+			<folter>Toolbar</folter>
 			<folder>View</folder>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
 			<filename>fof.xml</filename>
 			<filename>fofcontent.php</filename>
 		</files>
